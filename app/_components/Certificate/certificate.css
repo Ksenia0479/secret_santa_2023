@@ -230,7 +230,7 @@ body {
     height: 100%;
     background-color: black;
     opacity: 1;
-    animation: fadeIn 15s forwards; /* Adjust the duration as needed */
+    animation: fadeIn 30s forwards; /* Adjust the duration as needed */
 }
 
 @keyframes fadeIn {
