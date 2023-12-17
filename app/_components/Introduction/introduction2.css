@@ -1,0 +1,64 @@
+
+
+.container {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    padding: 10px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes typeText {
+    from {
+        width: 0;
+    }
+}
+
+h1 {
+    color: #030303;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #030303;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #030303;
+}
+
+.warning {
+    font-weight: 600
+}

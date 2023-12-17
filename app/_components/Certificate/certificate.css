@@ -1,0 +1,244 @@
+
+.gift-card[data-v-38debca7] {
+    box-shadow: 0 0 10px 4px rgba(0,0,0,.06);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    overflow: hidden;
+}
+.layout-section[data-v-22b101ee] {
+    flex: 2 2 48rem;
+    max-width: calc(100% - 2rem);
+    min-width: 51%;
+}
+
+.gift-card__image[data-v-38debca7] {
+    width: 100%;
+}
+
+.gift-card__details[data-v-38debca7] {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px 24px 16px 14px;
+    position: relative;
+}
+
+.gift-card__details[data-v-38debca7]:before {
+    background: linear-gradient(to right top,#fff 50%,transparent 52%);
+    content: "";
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.gift-card__info[data-v-38debca7] {
+    margin-top: auto;
+}
+
+.gift-card__label[data-v-38debca7] {
+    color: #909090;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+
+label {
+    font-size: 1.26rem;
+    opacity: .8;
+}
+
+.gift-card__value[data-v-38debca7] {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gift-card__value[data-v-38debca7] {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gift-card__info[data-v-38debca7] {
+    margin-top: auto;
+}
+
+.gift-card__label[data-v-38debca7] {
+    color: #909090;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.gift-card__code[data-v-38debca7] {
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.gift-card__code span[data-v-38debca7] {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gift-card__code .copy-icons[data-v-38debca7] {
+    margin-left: 8px;
+    width: 20px;
+}
+
+.b_main{
+    display: flex;
+    align-items: flex-start;
+    height: 100vh; 
+  }
+
+.box {
+    width: 33.3%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    
+  }
+
+  .b1 {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.bi_21 {
+    width: 50%;
+}
+
+.bi_22 {
+    width: 50%;
+
+
+}
+
+.b2_b1 {
+    height: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.b2_b2 {
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.b2_b1 img {
+    width: 100%;
+}
+
+
+.b2_b2 img {
+    width: 100%;
+}
+
+.b3_b1 {
+    height: 50%;
+    display: flex;
+}
+
+.b3_b2 {
+    height: 50%;
+    display: flex;
+}
+
+.b3_b1_b1 {
+    height: 102%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.b3_b1_b2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.b3_b1_b2_b1 {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.b3_b1_b2_b1 img {
+    width: 100%;
+}
+
+.b3_b1_b2_b2 {
+    overflow: hidden;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.b3_b2_b1 {
+    width: 50%;
+    overflow: hidden;
+}
+
+.b3_b2_b1 img {
+    height: 100%;
+}
+
+.b3_b2_b2 {
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.cover {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1111111c;
+    z-index: 100000000;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+    animation: fadeIn 15s forwards; /* Adjust the duration as needed */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
