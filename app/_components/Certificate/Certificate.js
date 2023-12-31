@@ -26,6 +26,8 @@ const Certificate = () => {
           <img src="/photo_2023-12-31_15-15-05.jpg" />
         </div>
       </div>
+      <div className="cover"></div>
+      <div className="overlay"></div>
     </div>
   );
 };
