@@ -43,14 +43,15 @@ const questions = [
   },
   {
     id: 4,
-    question: "Какие роли могут быть в распределении в начале игры Пандемии?",
+    question:
+      "В какой игре в течении трех эпох нужно бахнуть как можно больше построек и чудес света?",
     answers: {
-      "Доктор и Агент": "doktor_i_agent",
-      "Разведчик и Аналитик": "razvedchik_i_analytik",
-      "Медик и Исследователь": "medik_i_isledovatel",
+      "Билет на поезд": "bilet_na_pojezd",
+      Колонизаторы: "kolonizatory2",
+      "7 чудес": "7_chudes",
     },
     selectedOption: "",
-    value: "medik_i_isledovatel",
+    value: "7_chudes",
     url: "/games/pandemic.jpg",
   },
   {
@@ -65,7 +66,7 @@ const questions = [
   {
     id: 6,
     question:
-      "Какой компонент игры Билет на Поезд имеет дополнительные баллы при завершении маршрута?",
+      "Какой компонент игры Билет на Поезд снимает дополнительные баллы при завершении маршрута?",
     answers: { Вагоны: "vagony", Станции: "stancii", Локомотивы: "lokomotivy" },
     selectedOption: "",
     value: "stancii",
