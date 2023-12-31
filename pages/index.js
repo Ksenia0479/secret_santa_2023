@@ -4,6 +4,10 @@ import Introduction from "../app/_components/Introduction/Introduction";
 const Page = () => {
   const router = useRouter();
 
+  const clearCacheHandler = () => {
+    localStorage.clear();
+  };
+
   const startGameHandler = () => {
     router.push("/quiz/1");
   };
@@ -21,7 +25,10 @@ const Page = () => {
         }
       }
     >
-      <Introduction startGameHandler={startGameHandler} />
+      <Introduction
+        startGameHandler={startGameHandler}
+        clearCacheHandler={clearCacheHandler}
+      />
     </div>
   );
 };

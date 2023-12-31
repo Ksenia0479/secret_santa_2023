@@ -1,6 +1,6 @@
 import "./introduction.css";
 
-const Introduction = ({ startGameHandler }) => {
+const Introduction = ({ startGameHandler, clearCacheHandler }) => {
   return (
     <>
       <div
@@ -236,6 +236,7 @@ const Introduction = ({ startGameHandler }) => {
               jsdisplay="(suggestionsDetails &amp;&amp; suggestionsDetails.length > 0) || diagnose"
               jsvalues=".detailsText:details; .hideDetailsText:hideDetails;"
               jstcache="2"
+              onClick={clearCacheHandler}
             >
               Details
             </button>

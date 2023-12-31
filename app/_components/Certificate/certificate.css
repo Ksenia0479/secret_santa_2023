@@ -97,7 +97,7 @@ label {
   }
 
 .box {
-    width: 33.3%;
+    width: 50%;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -105,11 +105,12 @@ label {
   }
 
   .b1 {
-    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    height: "auto";
   }
 
 .bi_21 {
@@ -134,17 +135,18 @@ label {
     height: 50%;
     position: absolute;
     bottom: 0;
-    width: 100%;
     overflow: hidden;
 }
 
 .b2_b1 img {
     width: 100%;
+    height: 100%;
 }
 
 
 .b2_b2 img {
     width: 100%;
+    height: 100%;
 }
 
 .b3_b1 {

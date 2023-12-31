@@ -159,14 +159,17 @@ const QuizPage = ({ data: { question, id } }) => {
 
   const goForwardHandler = () => {
     if (parsedId === questions.length) {
-      openModalHandle();
       const res = checkResult();
       if (res.totalAnswers >= 2) {
+        openModalHandle();
         updateCountdown();
         setTimeout(() => {
           router.push(`/final`);
-          closeModalHandle();
+          //closeModalHandle();
         }, 7000);
+      } else {
+        router.push(`/`);
+        localStorage.clear();
       }
     } else {
       router.push(`/quiz/${parsedId + 1}`);
